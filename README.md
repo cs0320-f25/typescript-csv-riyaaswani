@@ -46,16 +46,20 @@
 ### 1340 Supplement
 
 - #### 1. Correctness
+    A CSV parser should be able to parse data in a way that the caller wants it to. By being able to parse data into objects or arrays, a CSV parser is versatile and customizable. It should also be able to identify errors in data and communicate those to the caller. Lastly, it should be able to parse data for various needs, meaning it has to be general yet effective. Tests should be checking properties like error throwing, accuracy of parsing, and flexibility of inputs.
 
 - #### 2. Random, On-Demand Generation
+    It would allow me to test my parser on many different scenarios. One of the most difficult things when testing is coming up with scenarios that test different edge cases or possible mistakes. With a function that generates random data on demand, my parser would be able to be tested very thoroughly.
 
 - #### 3. Overall experience, Bugs encountered and resolved
-#### Errors/Bugs:
+    - The overall experience was pretty difficult. I felt like I had to figure most of it out without much guidance, and I'm not even sure if what I did is correct. The amount of flexibility surprised me.
+#### Errors/Bugs: Some bugs on the error checking, but I figured it out eventually. Ed stem helped with figuring out my errors.
 #### Tests:
 #### How To…
 
 #### Team members and contributions (include cs logins):
 
 #### Collaborators (cslogins of anyone you worked with on this project and/or generative AI):
-#### Total estimated time it took to complete project:
-#### Link to GitHub Repo:  
+- discussed conceptual concepts with Anand Heintz (cs login asheintz)
+#### Total estimated time it took to complete project: 6 hours
+#### Link to GitHub Repo:  https://github.com/cs0320-f25/typescript-csv-riyaaswani.git
